@@ -1,0 +1,34 @@
+{ "name": "midijssf-timgm6mb-pmb",
+  "version": "0.1.0",
+  "description": "MIDI.js sound font: timgm6mb. Converted TimGM6mb.sf2 from Debian package timgm6mb-soundfont, GPL v2.",
+  "keywords": [ "MIDI.js", "midi", "sound font", "wavetable",
+    "timgm6mb"
+  ],
+
+  "author": "Tim Brechbill (http://www.timbrechbill.com)",
+  "homepage": "https://github.com/mk-pmb/midijssf-timgm6mb-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/midijssf-timgm6mb-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/midijssf-timgm6mb-pmb/issues"
+  },
+  "contributors": [
+    "M.K. (https://github.com/mk-pmb)"
+  ],
+
+  "private": false, "license": "GPL-2",
+
+  "main": "dist/instruments.json",
+  "scripts": { "start": "nodejs convert.js" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "midijssf-from-sf2-pmb": "^0.1.0",
+    "soundfont-player": "^0.10.6"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
