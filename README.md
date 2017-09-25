@@ -10,10 +10,6 @@ timgm6mb-soundfont, GPL v2.
 <!--/#echo -->
 
 
-Usage
------
-
-
 
 
 <!--#toc stop="scan" -->
