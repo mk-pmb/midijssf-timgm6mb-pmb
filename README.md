@@ -5,8 +5,8 @@ midijssf-timgm6mb-pmb
 <!--/#echo -->
 
 <!--#echo json="package.json" key="description" -->
-MIDI.js sound font: timgm6mb. Converted TimGM6mb.sf2 from Debian package
-timgm6mb-soundfont, GPL v2.
+(Huge output files not yet included.) MIDI.js sound font: timgm6mb. Converted
+TimGM6mb.sf2 from Debian package timgm6mb-soundfont, GPL v2.
 <!--/#echo -->
 
 
@@ -27,11 +27,11 @@ Run `npm start` (or `nodejs convert.js`) to (re)build the wavetable files.
 Known issues
 ------------
 
-* This package contains samples in multiple audio formats,
-  including the quite large FLAC version.
-  If you want a smaller package with fewer formats (e.g., just MP3),
-  the license grants you permission to make and publish a reduced
-  version of this package.
+* The package is absurdly huge due to the output directories:
+  * `mp3low-cjwt/`, `mp3low-midijs/`: 124 MB  each
+  * `ogglow-cjwt/`, `ogglow-midijs/`: 147 + 148 MB
+  * &rArr; Need to find a better distribution strategy than naive `npm pub`
+
 
 
 

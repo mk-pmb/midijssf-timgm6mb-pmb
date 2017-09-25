@@ -1,6 +1,6 @@
 { "name": "midijssf-timgm6mb-pmb",
   "version": "0.1.0",
-  "description": "MIDI.js sound font: timgm6mb. Converted TimGM6mb.sf2 from Debian package timgm6mb-soundfont, GPL v2.",
+  "description": "(Huge output files not (yet?) included.) MIDI.js sound font: timgm6mb. Converted TimGM6mb.sf2 from Debian package timgm6mb-soundfont, GPL v2.",
   "keywords": [ "MIDI.js", "midi", "sound font", "wavetable",
     "timgm6mb"
   ],
